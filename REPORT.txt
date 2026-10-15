@@ -1,0 +1,16 @@
+Brief Report: DerivaPath — Differentiated Learning for Derivatives
+
+Project objective
+DerivaPath is a responsive calculus practice website that teaches differentiation through task generation. Rather than repeating one function, it provides separate task banks for Foundation, Standard, and Advanced learners. A “Generate new task” button selects another task from the active level.
+
+Prompt and task design
+The learning prompts are adapted by level. Foundation tasks focus on basic power-rule skills, linear functions, constants, and simple polynomials with reminders and guided hints. Standard tasks include more complex polynomials, product-rule problems, reciprocal powers, and evaluating a derivative at a point. Advanced tasks require the chain rule, product-rule simplification, tangent-gradient interpretation, trigonometric composition, and second derivatives. Every task includes its own hint and a worked explanation.
+
+How differentiation is achieved
+Foundation provides the most scaffolding and shorter expressions. Standard requires learners to choose and apply the correct rule more independently. Advanced increases cognitive demand by combining rules or asking learners to interpret derivative values. The same broad learning goal—understanding derivatives—is maintained while task complexity, independence, and explanation depth change.
+
+Feedback
+Students can submit an answer for immediate rule-based feedback, reveal a hint, and open a task-specific step-by-step explanation. The Generate new task button supports repeated practice. Tasks are drawn from different task banks and the button avoids selecting the same task consecutively when alternatives are available.
+
+Technical limitation
+This version is an interactive prototype with prepared tasks and rule-based answer checking. It does not yet connect to a live generative AI API. If live AI integration is required, connect a secure server-side endpoint and store the API key in environment variables, not in browser code.
